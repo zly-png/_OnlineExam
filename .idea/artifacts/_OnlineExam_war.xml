@@ -7,7 +7,7 @@
         <packaging>war</packaging>
       </options>
     </properties>
-    <root id="archive" name="${project.artifactId}-${project.version}.war">
+    <root id="archive" name="_OnlineExam-1.0-SNAPSHOT.war">
       <element id="artifact" artifact-name="_OnlineExam:war exploded" />
     </root>
   </artifact>

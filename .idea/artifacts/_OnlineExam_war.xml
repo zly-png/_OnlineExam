@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="_OnlineExam:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>_OnlineExam</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="${project.artifactId}-${project.version}.war">
+      <element id="artifact" artifact-name="_OnlineExam:war exploded" />
+    </root>
+  </artifact>
+</component>
